@@ -1,4 +1,6 @@
 # d3-hierarchy
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSPoint42%2Fd3-hierarchy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSPoint42%2Fd3-hierarchy?ref=badge_shield)
+
 
 Many datasets are intrinsically hierarchical. Consider [geographic entities](https://www.census.gov/programs-surveys/geography/guidance/hierarchy.html), such as census blocks, census tracts, counties and states; the command structure of businesses and governments; file systems and software packages. And even non-hierarchical data may be arranged empirically into a hierarchy, as with [*k*-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) or [phylogenetic trees](https://observablehq.com/@mbostock/tree-of-life).
 
@@ -546,3 +548,7 @@ The circles are positioned according to the front-chain packing algorithm by [Wa
 <a name="packEnclose" href="#packEnclose">#</a> d3.<b>packEnclose</b>(<i>circles</i>) · [Source](https://github.com/d3/d3-hierarchy/blob/master/src/pack/enclose.js), [Examples](https://observablehq.com/@d3/d3-packenclose)
 
 Computes the [smallest circle](https://en.wikipedia.org/wiki/Smallest-circle_problem) that encloses the specified array of *circles*, each of which must have a *circle*.r property specifying the circle’s radius, and *circle*.x and *circle*.y properties specifying the circle’s center. The enclosing circle is computed using the [Matoušek-Sharir-Welzl algorithm](http://www.inf.ethz.ch/personal/emo/PublFiles/SubexLinProg_ALG16_96.pdf). (See also [Apollonius’ Problem](https://bl.ocks.org/mbostock/751fdd637f4bc2e3f08b).)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSPoint42%2Fd3-hierarchy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSPoint42%2Fd3-hierarchy?ref=badge_large)
